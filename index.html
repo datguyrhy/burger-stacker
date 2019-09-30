@@ -10,10 +10,10 @@
   <title>Burger Stacker</title>
 </head>
 <body>
-  <!-- mini-match for burger <--></-->
-  <div class = "main-container container-fluid">
+  <div class = "main-container container-fluid" id="main-box">
+      <!-- mini-match for burger <--></-->
   <div class= "row">
-    <div class="col-2 " id="mini-burger-ui">
+    <div class="col-3 d-flex flex-column justify-content-end align-items-center" id="mini-burger-ui">
       <div class = "example" id="eglayer10"></div>
       <div class = "example" id="eglayer9"></div>
       <div class = "example" id="eglayer8"></div>
@@ -29,9 +29,9 @@
     </div>
 
     <!-- ingredients UI -->
-    <div class=" col-3 offset-6 d-flex flex-wrap align-content-start" id ="ingredients-ui">
-      <div class = "ingredients-ui" id="btn-0">Mush</div>
-      <div class = "ingredients-ui" id="btn-1">Chees </div>
+    <div class=" col-5 offset-4 d-flex flex-wrap justify-content-space-evenly align-items-center" id ="ingredients-ui">
+      <div class = "ingredients-ui" id="btn-0">Mushroom<img src= "images/mushroom.png"></div>
+      <div class = "ingredients-ui" id="btn-1">Cheese<img src="images/cheese2.png"> </div>
       <div class = "ingredients-ui" id="btn-2">beef </div>
       <div class = "ingredients-ui" id="btn-3">Chix </div>
       <div class = "ingredients-ui" id="btn-4"> Fish</div>
@@ -48,7 +48,7 @@
 </div>
   <!-- main burger -->
 <div class="row">
-  <div class=" col-6 offset-3">
+  <div class=" col-5 offset-3 d-flex flex-column align-items-center">
     <div class = "stuff" id="layer10"></div>
     <div class = "stuff" id="layer9"></div>
     <div class = "stuff" id="layer8"></div>
@@ -61,6 +61,9 @@
     <div class = "stuff" id="layer1"></div>
     <div class = "stuff" id="layer0"></div>
     <div class ="stuff" id="player-bun-base"></div>
+  </div>
+  <div class="col-2 d-flex align-items-end justify-content end">
+    <button id="resetBurger">Restart Burger</button>
   </div>
 </div>
 </div>

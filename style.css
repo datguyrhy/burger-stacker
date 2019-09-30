@@ -1,76 +1,119 @@
 #btn-0{
-  background-color: orange;
-  border: 1px solid red;
+  background-color: #01d28e;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/mushroom.png');
+  background-image: linear-gradient(#672f2f, #faf5ef);
 }
 
 #btn-1{
-  background-color: green;
-
-  border: 1px solid red;
+  background-color: #f7aa00;
+  border-radius: 10px;
+  border: 1px solid black;
+  /* background-image:url('images/cheese.png'); */
+  background-image: linear-gradient(#fbe555, #f45905,#fbe555);
 }
 #btn-2{
-  background-color: brown;
-
-  border: 1px solid red;
+  background-color: #672f2f;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/beef-patty2.png');
+  background-size: cover;
 }
 #btn-3{
-  background-color: yellow;
-  border: 1px solid red;
+  background-color: #fae8c8;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image: linear-gradient(90deg,#c36a2d, #e2c275,#eadca6);
 }
 #btn-4{
-  background-color:blue;
-  border: 1px solid red;
+  background-color:#fda77f;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/fish-fillet.png');
+  background-size: cover;
 }
 #btn-5{
-  background-color: purple;
-  border: 1px solid red;
+  background-color: #c9d99e;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/lettuce.png');
+  background-size: cover;
 }
 #btn-6{
-  background-color: purple;
-  border: 1px solid red;
+  background-color: #f66767;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/tomato2.png');
+  background-size: cover;
 }
 #btn-7{
-  background-color: purple;
-  border: 1px solid red;
+  background-color: #b5525c;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/bacon2.png');
+  background-size: cover;
 }
 #btn-8{
-  background-color: purple;
-
-  border: 1px solid red;
+  background-color: #445c3c;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/pickle.png');
+  background-size: cover;
 }
 #btn-9{
-  background-color: purple;
-  border: 1px solid red;
+  color:black;
+  background-color: #ffffea;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/lettuce.png');
+  background-size: cover;
 }
 #btn-10{
-  background-color: purple;
-  border: 1px solid red;
+  background-color: #c70d3a;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/beef-patty2.png');
+  background-size: cover;
 }
 #btn-11{
-  background-color: purple;
-  border: 1px solid red;
+  background-color: #fbe555;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/beef-patty2.png');
+  background-size: cover;
 }
 #btn-12{
-  background-color: purple;
-  border: 1px solid red;
+  background-color: #fe59d7;
+    border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/ham2.png');
+  background-size: cover;
 }
 #btn-13{
-  background-color: cyan;
-  border: 1px solid red;
+  background-color: #170a19;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-image:url('images/burgercap.png');
+  background-size: cover;
 }
 .ingredients-ui{
-color:"white";  
+color: white;
 
 }
 #mini-burger-ui{
-  height: 400px;
-  width:300px;
-  background-color: pink;
+  height: 350px;
+  background-color: #bd83ce;
+  border-radius: 25px;
+  border:3px dotted black;
+
 }
 #player-bun-base{
   background-color: orange;
   width: 380px;
   height: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 #egbase{
   height:20px;
@@ -79,14 +122,38 @@ color:"white";
 }
 .stuff{
   height:40px;
-  width:300px;
+  width:380px;
+  background-size:360px 55px;
+  border-radius:5px;
 }
 .example{
   height:20px;
   width:150px;
-  background-color:green;
+  border-radius: 5px;
 }
 .ingredients-ui{
   width:100px;
   height:100px;
+}
+
+#main-box{
+  background-color: #d2fafb;
+  width:80%;
+  border:1px solid black;
+}
+
+img{
+  height:80px;
+  width:80px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+#resetBurger{
+  color:#f9f9f9;
+  background-color: #ca3e47;
+  width:150px;
+  height:50px;
+  border-radius: 15px;
+
 }
