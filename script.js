@@ -162,7 +162,8 @@ function burgerCheck(){
       return
     }
   }
-  setTimeout(function(){alert("Nice burger!")}, 1000);
+  setTimeout(function(){
+  alert("Nice burger!")}, 1000);
   console.log("where's the lamb sauce");
   clearedCounter= clearedCounter+1;
   console.log("cleared: " + clearedCounter);
@@ -178,6 +179,7 @@ function reset(){
   for(var i=layerCounter;i>=0;i--){
     document.querySelector("#layer" + i.toString()).style.backgroundColor ="";
     document.querySelector("#layer" + i.toString()).style.backgroundImage = "none";
+    document.querySelector("#eglayer" + i.toString()).style.backgroundImage = "none";
     console.log(i);
   }
   layerCounter = 0;
@@ -288,6 +290,7 @@ function resetBurger(){
     document.querySelector("#layer" + i.toString()).style.backgroundColor ="";
     document.querySelector("#layer" + i.toString()).style.backgroundImage = "none";
     layerCounter = 0;
+    bun = false;
   }
 }
 document.querySelector('#resetBurger').addEventListener('click',resetBurger);
@@ -295,19 +298,19 @@ document.querySelector('#resetBurger').addEventListener('click',resetBurger);
 var clearedCounter=0;
 
 function levelUp(){
-  if(clearedCounter >2){
+  if(clearedCounter >1){
     maxIngredient = 4;
 
-  } if(clearedCounter >4){
+  } if(clearedCounter >2){
     maxIngredient = 5;
 
-  } if(clearedCounter >6){
+  } if(clearedCounter >3){
     maxIngredient = 6;
 
-  } if(clearedCounter >8){
+  } if(clearedCounter >4){
     maxIngredient = 8;
 
-  } if(clearedCounter >10){
+  } if(clearedCounter >6){
     maxIngredient = 9;
   }
   if(clearedCounter >12){
