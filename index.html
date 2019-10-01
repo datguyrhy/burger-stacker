@@ -3,7 +3,6 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,9 +10,11 @@
 </head>
 <body>
   <div class = "main-container container-fluid" id="main-box">
-      <!-- mini-match for burger <--></-->
+      <!-- mini-match for burger <-->
   <div class= "row">
-    <div class="col-3 d-flex flex-column justify-content-end align-items-center" id="mini-burger-ui">
+    <div class="col-4">
+      <div class="d-flex flex-column align-items-center" id="mini-burger-ui">
+        <h3>Example</h3>
       <div class = "example" id="eglayer10"></div>
       <div class = "example" id="eglayer9"></div>
       <div class = "example" id="eglayer8"></div>
@@ -27,43 +28,48 @@
       <div class = "example" id="eglayer0"></div>
       <div class ="example" id="egbase"></div>
     </div>
-
+  </div>
+  <!-- mini burger end -->
+  <h3>Hi-Score: </h3>
+  <h3 id="Hi-score"> 0</h3>
     <!-- ingredients UI -->
-    <div class=" col-5 offset-4 d-flex flex-wrap justify-content-space-evenly align-items-center" id ="ingredients-ui">
-      <div class = "ingredients-ui" id="btn-0">Mushroom<img src= "images/mushroom.png"></div>
-      <div class = "ingredients-ui" id="btn-1">Cheese<img src="images/cheese2.png"> </div>
-      <div class = "ingredients-ui" id="btn-2">beef </div>
-      <div class = "ingredients-ui" id="btn-3">Chix </div>
+    <div class=" col-5 offset-1 d-flex flex-wrap justify-content-end align-items-center" id ="ingredients-ui">
+      <div class = "ingredients-ui" id="btn-0">Mushroom <img src= "images/mushroom.png"></div>
+      <div class = "ingredients-ui" id="btn-1">Cheese <img src="images/cheese2.png"> </div>
+      <div class = "ingredients-ui" id="btn-2">Beef </div>
+      <div class = "ingredients-ui" id="btn-3">Chicken <img src="images/chicken-patty2.png"> </div>
       <div class = "ingredients-ui" id="btn-4"> Fish</div>
-      <div class = "ingredients-ui" id="btn-5"> lettuce</div>
-      <div class = "ingredients-ui" id="btn-6"> Tomat</div>
-      <div class = "ingredients-ui" id="btn-7"> bacon</div>
-      <div class = "ingredients-ui" id="btn-8"> pickle</div>
-      <div class = "ingredients-ui" id="btn-9"> mayo</div>
-      <div class = "ingredients-ui" id="btn-10"> ketchup</div>
-      <div class = "ingredients-ui" id="btn-11"> mustard</div>
-      <div class = "ingredients-ui" id="btn-12"> ham</div>
+      <div class = "ingredients-ui" id="btn-5"> Lettuce</div>
+      <div class = "ingredients-ui" id="btn-6"> Tomato</div>
+      <div class = "ingredients-ui" id="btn-7"> Bacon</div>
+      <div class = "ingredients-ui" id="btn-8"> Pickle</div>
+      <div class = "ingredients-ui" id="btn-9"> Mayo</div>
+      <div class = "ingredients-ui" id="btn-10"> Ketchup</div>
+      <div class = "ingredients-ui" id="btn-11"> Mustard</div>
+      <div class = "ingredients-ui" id="btn-12"> Ham</div>
       <div class = "ingredients-ui" id="btn-13"> BurgerCap </div>
     </div>
+    <!-- ingredients UI end -->
 </div>
   <!-- main burger -->
 <div class="row">
   <div class=" col-5 offset-3 d-flex flex-column align-items-center">
-    <div class = "stuff" id="layer10"></div>
-    <div class = "stuff" id="layer9"></div>
-    <div class = "stuff" id="layer8"></div>
-    <div class = "stuff" id="layer7"></div>
-    <div class = "stuff" id="layer6"></div>
-    <div class = "stuff" id="layer5"></div>
-    <div class = "stuff" id="layer4"></div>
-    <div class = "stuff" id="layer3"></div>
-    <div class = "stuff" id="layer2"></div>
-    <div class = "stuff" id="layer1"></div>
-    <div class = "stuff" id="layer0"></div>
-    <div class ="stuff" id="player-bun-base"></div>
+    <div class = "burgerLayer" id="layer10"></div>
+    <div class = "burgerLayer" id="layer9"></div>
+    <div class = "burgerLayer" id="layer8"></div>
+    <div class = "burgerLayer" id="layer7"></div>
+    <div class = "burgerLayer" id="layer6"></div>
+    <div class = "burgerLayer" id="layer5"></div>
+    <div class = "burgerLayer" id="layer4"></div>
+    <div class = "burgerLayer" id="layer3"></div>
+    <div class = "burgerLayer" id="layer2"></div>
+    <div class = "burgerLayer" id="layer1"></div>
+    <div class = "burgerLayer" id="layer0"></div>
+    <div class ="burgerLayer" id="player-bun-base"></div>
   </div>
+  <!-- main burger end -->
   <div class="col-2 d-flex align-items-end justify-content end">
-    <button id="resetBurger">Restart Burger</button>
+    <button id="resetBurger">Reset Your Burger</button>
   </div>
 </div>
 </div>

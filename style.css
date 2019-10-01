@@ -15,14 +15,14 @@
 }
 #btn-2{
   background-color: #672f2f;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
   background-image:url('images/beef-patty2.png');
   background-size: cover;
 }
 #btn-3{
   background-color: #fae8c8;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
   background-image: linear-gradient(90deg,#c36a2d, #e2c275,#eadca6);
 }
@@ -34,53 +34,54 @@
   background-size: cover;
 }
 #btn-5{
+  color:black;
   background-color: #c9d99e;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
-  background-image:url('images/lettuce.png');
+  background-image:url('images/lettuce2.png');
   background-size: cover;
 }
 #btn-6{
   background-color: #f66767;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
   background-image:url('images/tomato2.png');
   background-size: cover;
 }
 #btn-7{
   background-color: #b5525c;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
   background-image:url('images/bacon2.png');
   background-size: cover;
 }
 #btn-8{
   background-color: #445c3c;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
-  background-image:url('images/pickle.png');
+  background-image:url('images/pickl2.png');
   background-size: cover;
 }
 #btn-9{
   color:black;
   background-color: #ffffea;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
-  background-image:url('images/lettuce.png');
+  background-image:url('images/mayo.png');
   background-size: cover;
 }
 #btn-10{
   background-color: #c70d3a;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
-  background-image:url('images/beef-patty2.png');
+  background-image:url('images/ketchup.png');
   background-size: cover;
 }
 #btn-11{
   background-color: #fbe555;
-    border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid black;
-  background-image:url('images/beef-patty2.png');
+  background-image:url('images/mustard.png');
   background-size: cover;
 }
 #btn-12{
@@ -102,16 +103,17 @@ color: white;
 
 }
 #mini-burger-ui{
-  height: 350px;
-  background-color: #bd83ce;
+  height:250px;
+  width: 250px;
+  background-color: #51dacf;
   border-radius: 25px;
   border:3px dotted black;
-
+  margin-top:10px
 }
 #player-bun-base{
   background-color: orange;
   width: 380px;
-  height: 30px;
+  height: 45px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -120,8 +122,8 @@ color: white;
   width:150px;
   background-color: orange;
 }
-.stuff{
-  height:40px;
+.burgerLayer{
+  height:30px;
   width:380px;
   background-size:360px 55px;
   border-radius:5px;
@@ -129,26 +131,30 @@ color: white;
 .example{
   height:20px;
   width:150px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 .ingredients-ui{
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
 }
+
 
 #main-box{
   background-color: #d2fafb;
-  width:80%;
+  width:95%;
   border:1px solid black;
 }
 
 img{
-  height:80px;
-  width:80px;
-  margin-left: 20px;
+  height: 65px;
+  width: 82px;
+  margin-left: 5px;
   margin-top: -10px;
 }
 
+#ingredients-ui{
+  padding: 0;
+}
 #resetBurger{
   color:#f9f9f9;
   background-color: #ca3e47;
@@ -156,4 +162,8 @@ img{
   height:50px;
   border-radius: 15px;
 
+}
+
+#Hi-score{
+  margin-left: 8px;
 }
