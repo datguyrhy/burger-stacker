@@ -368,23 +368,22 @@ function burgerCheck(){
   var clearedCounter=0;
 
   function levelUp(){
-    if(clearedCounter >1){
-      maxIngredient = 4;
-
-    } if(clearedCounter >2){
-      maxIngredient = 5;
-
-    } if(clearedCounter >3){
-      maxIngredient = 6;
-
-    } if(clearedCounter >4){
-      maxIngredient = 8;
-
-    } if(clearedCounter >5){
-      maxIngredient = 9;
-    }
     if(clearedCounter >6){
       maxIngredient = 10;
+
+    } else if(clearedCounter >5){
+      maxIngredient = 9;
+
+    } else if(clearedCounter >4){
+      maxIngredient = 8;
+
+    } else if(clearedCounter >3){
+      maxIngredient = 6;
+
+    } else if(clearedCounter >2){
+      maxIngredient = 5;
+    } else if(clearedCounter >1){
+      maxIngredient = 4;
     }
   }
 
@@ -392,6 +391,28 @@ function burgerCheck(){
     var score =clearedCounter*100;
     document.querySelector('#Hi-score').innerText =" " + score;
   }
+
+// this was the original i typed out
+  // function levelUp(){
+  //   if(clearedCounter >1){
+  //     maxIngredient = 4;
+  //
+  //   } if(clearedCounter >2){
+  //     maxIngredient = 5;
+  //
+  //   } if(clearedCounter >3){
+  //     maxIngredient = 6;
+  //
+  //   } if(clearedCounter >4){
+  //     maxIngredient = 8;
+  //
+  //   } if(clearedCounter >5){
+  //     maxIngredient = 9;
+  //   }
+  //   if(clearedCounter >6){
+  //     maxIngredient = 10;
+  //   }
+  // }
 
   //
   // //weird stuff
