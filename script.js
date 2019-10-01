@@ -86,7 +86,7 @@ function pickIngredient(ingredient){
     return;
   }
   console.log("layerCounter: " + layerCounter);
-  var x = document.querySelector("#layer" + layerCounter.toString())
+  var x = document.querySelector("#layer" + layerCounter.toString());
 
   //ingredient push into playburger
   if (ingredient === 'mushroom'){
@@ -214,58 +214,102 @@ function burgerCheck(){
       var x = document.querySelector("#eglayer" + i.toString());
       if (randomBurgerGen === 'mushroom'){
         x.style.backgroundImage = "linear-gradient(#672f2f, #faf5ef)";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("mushroom");
+
       }else if (randomBurgerGen === 'cheese'){
         x.style.backgroundImage = "linear-gradient(#fbe555, #f45905,#fbe555)";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("cheese");
 
       }  else if (randomBurgerGen === 'beefPatty'){
         x.style.backgroundColor = "#672f2f";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("beefPatty");
 
       }  else if (randomBurgerGen === 'chixPatty'){
         x.style.backgroundImage = 'linear-gradient(90deg,#eadca6,#c36a2d, #e2c275,#eadca6)';
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("chixPatty");
 
       }  else if (randomBurgerGen === 'fishFillet'){
         x.style.backgroundColor = "#fda77f";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("fishFillet");
 
       }  else if (randomBurgerGen === 'lettuce'){
         x.style.backgroundColor = "#c9d99e";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("lettuce");
 
       }  else if (randomBurgerGen === 'tomato'){
         x.style.backgroundColor = "#f66767";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("tomato");
 
       }  else if (randomBurgerGen === 'bacon'){
         x.style.backgroundColor = "#b5525c";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("bacon");
 
       } else if (randomBurgerGen === 'pickle'){
         x.style.backgroundColor = "#445c3c";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("pickle");
 
       } else if (randomBurgerGen === 'mayo'){
         x.style.backgroundColor = "#ffffea";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("mayo");
 
       } else if (randomBurgerGen === 'ketchup'){
         x.style.backgroundColor = "#c70d3a";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("ketchup");
 
       } else if (randomBurgerGen === 'mustard'){
         x.style.backgroundColor = "#fbe555";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("mustard");
 
       } else if (randomBurgerGen === 'ham'){
         x.style.backgroundColor = "#fe59d7";
+        x.style.width = "140px";
+        x.style.height = "20px";
+        x.style.borderRadius = "7px";
         exampleburger.push("ham");
       }
     }
 
     document.querySelector("#eglayer" + maxIngredient.toString()).style.backgroundColor = "#ec9b3b";
+    document.querySelector("#eglayer" + maxIngredient.toString()).style.width = "150px";
+    document.querySelector("#eglayer" + maxIngredient.toString()).style.height = "35px";
+    document.querySelector("#eglayer" + maxIngredient.toString()).style.borderTopLeftRadius = "18px";
+    document.querySelector("#eglayer" + maxIngredient.toString()).style.borderTopRightRadius = "18px";
   }
 
   startGame();

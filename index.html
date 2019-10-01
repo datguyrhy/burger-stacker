@@ -12,44 +12,48 @@
   <div class = "main-container container-fluid" id="main-box">
       <!-- mini-match for burger <-->
   <div class= "row">
-    <div class="col-4">
-      <div class="d-flex flex-column align-items-center" id="mini-burger-ui">
-        <h3>Example</h3>
-      <div class = "example" id="eglayer10"></div>
-      <div class = "example" id="eglayer9"></div>
-      <div class = "example" id="eglayer8"></div>
-      <div class = "example" id="eglayer7"></div>
-      <div class = "example" id="eglayer6"></div>
-      <div class = "example" id="eglayer5"></div>
-      <div class = "example" id="eglayer4"></div>
-      <div class = "example" id="eglayer3"></div>
-      <div class = "example" id="eglayer2"></div>
-      <div class = "example" id="eglayer1"></div>
-      <div class = "example" id="eglayer0"></div>
-      <div class ="example" id="egbase"></div>
+    <div class="d-flex container-fluid">
+      <div class="col-4">
+        <div class="d-flex flex-column align-items-center" id="mini-burger-ui">
+          <h3>Example</h3>
+        <div class = "example" id="eglayer10"></div>
+        <div class = "example" id="eglayer9"></div>
+        <div class = "example" id="eglayer8"></div>
+        <div class = "example" id="eglayer7"></div>
+        <div class = "example" id="eglayer6"></div>
+        <div class = "example" id="eglayer5"></div>
+        <div class = "example" id="eglayer4"></div>
+        <div class = "example" id="eglayer3"></div>
+        <div class = "example" id="eglayer2"></div>
+        <div class = "example" id="eglayer1"></div>
+        <div class = "example" id="eglayer0"></div>
+        <div  id="egbase"></div>
+      </div>
     </div>
+    <!-- mini burger end -->
+        <div class ="col-3">
+          <h3>Hi-Score: </h3>
+          <h3 id="Hi-score"> 0</h3>
+        </div>
+      <!-- ingredients UI -->
+      <div class=" col-5 d-flex flex-wrap justify-content-end align-items-center" id ="ingredients-ui">
+        <div class = "ingredients-ui" id="btn-0">Mushroom <img src= "images/mushroom.png"></div>
+        <div class = "ingredients-ui" id="btn-1">Cheese <img src="images/cheese2.png"> </div>
+        <div class = "ingredients-ui" id="btn-2">Beef </div>
+        <div class = "ingredients-ui" id="btn-3">Chicken <img src="images/chicken-patty2.png"> </div>
+        <div class = "ingredients-ui" id="btn-4"> Fish</div>
+        <div class = "ingredients-ui" id="btn-5"> Lettuce</div>
+        <div class = "ingredients-ui" id="btn-6"> Tomato</div>
+        <div class = "ingredients-ui" id="btn-7"> Bacon</div>
+        <div class = "ingredients-ui" id="btn-8"> Pickle</div>
+        <div class = "ingredients-ui" id="btn-9"> Mayo</div>
+        <div class = "ingredients-ui" id="btn-10"> Ketchup</div>
+        <div class = "ingredients-ui" id="btn-11"> Mustard</div>
+        <div class = "ingredients-ui" id="btn-12"> Ham</div>
+        <div class = "ingredients-ui" id="btn-13"> BurgerCap </div>
+      </div>
+      <!-- ingredients UI end -->
   </div>
-  <!-- mini burger end -->
-  <h3>Hi-Score: </h3>
-  <h3 id="Hi-score"> 0</h3>
-    <!-- ingredients UI -->
-    <div class=" col-5 offset-1 d-flex flex-wrap justify-content-end align-items-center" id ="ingredients-ui">
-      <div class = "ingredients-ui" id="btn-0">Mushroom <img src= "images/mushroom.png"></div>
-      <div class = "ingredients-ui" id="btn-1">Cheese <img src="images/cheese2.png"> </div>
-      <div class = "ingredients-ui" id="btn-2">Beef </div>
-      <div class = "ingredients-ui" id="btn-3">Chicken <img src="images/chicken-patty2.png"> </div>
-      <div class = "ingredients-ui" id="btn-4"> Fish</div>
-      <div class = "ingredients-ui" id="btn-5"> Lettuce</div>
-      <div class = "ingredients-ui" id="btn-6"> Tomato</div>
-      <div class = "ingredients-ui" id="btn-7"> Bacon</div>
-      <div class = "ingredients-ui" id="btn-8"> Pickle</div>
-      <div class = "ingredients-ui" id="btn-9"> Mayo</div>
-      <div class = "ingredients-ui" id="btn-10"> Ketchup</div>
-      <div class = "ingredients-ui" id="btn-11"> Mustard</div>
-      <div class = "ingredients-ui" id="btn-12"> Ham</div>
-      <div class = "ingredients-ui" id="btn-13"> BurgerCap </div>
-    </div>
-    <!-- ingredients UI end -->
 </div>
   <!-- main burger -->
 <div class="row">
@@ -65,7 +69,7 @@
     <div class = "burgerLayer" id="layer2"></div>
     <div class = "burgerLayer" id="layer1"></div>
     <div class = "burgerLayer" id="layer0"></div>
-    <div class ="burgerLayer" id="player-bun-base"></div>
+    <div id="player-bun-base"></div>
   </div>
   <!-- main burger end -->
   <div class="col-2 d-flex align-items-end justify-content end">
