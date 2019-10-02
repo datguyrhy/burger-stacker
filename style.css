@@ -145,6 +145,8 @@ color: white;
   background-color: #d2fafb;
   width:95%;
   border:1px solid black;
+  background-image: url("https://i.imgur.com/SpD6fdi.png");
+  background-size:cover;
 }
 
 img{
@@ -170,4 +172,7 @@ img{
   margin-left: 8px;
   font-weight: bold;
   font-size: 50px;
+}
+.Hiscore{
+  color:white;
 }
